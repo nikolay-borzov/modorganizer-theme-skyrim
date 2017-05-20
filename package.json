@@ -1,0 +1,21 @@
+{
+  "name": "modorganizer-theme-skyrim",
+  "version": "1.1.2",
+  "author": "chintsu_kun",
+  "license": "GPL-3.0",
+  "description": "Skyrim theme for Mod Organizer",
+  "repository" :{ 
+    "type" : "git",
+    "url" : "https://github.com/nikolay-borzov/modorganizer-theme-skyrim.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "build": "gulp build-css"
+  }
+}
